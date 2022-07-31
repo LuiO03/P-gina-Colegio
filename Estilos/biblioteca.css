@@ -1,0 +1,645 @@
+*{
+	margin: 0;
+	padding: 0px;
+
+
+}
+
+#insignia2{
+	float: left;
+	align-items: center;
+	padding-left: 10px;
+	padding-right: 0px;
+	width: 200px;
+}
+
+
+header{
+	width: 100%;
+	align-items: center;
+}
+
+#menu-principal ul{
+	list-style: none;
+	font-family: sans-serif;
+	display: flex;
+	padding: 0px;
+	background: #b50000;
+	align-items: center;
+	margin: 0px;
+
+}
+
+#menu-principal ul li{
+	margin: 0;
+	padding: 10px 40px 10px 40px;
+	background: #b50000;
+	text-align: center;
+	float: right;
+}
+
+#menu-principal a{
+	color: white;
+	text-decoration:none;
+}
+
+#título-principal{
+	background: url("../Imágenes/Colegio01.jpg")no-repeat center center/cover;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	text-align: center;
+	align-items: center;
+	background-attachment: fixed;
+	
+}
+
+#título-principal h1{
+	padding-top: 20px;
+	color: papayawhip;
+	text-align: center;
+	border-color: white;
+	background: #b50000;
+	padding: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+#título-principal h2{
+	margin: 60px;
+	padding: 10px;
+	color: white;
+	background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.grid-objetivo {
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	flex-direction: row;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-family: tahoma;
+}
+
+
+.tema{
+	align-items: center;
+	background: white;
+	font-family: tahoma;
+}
+
+.título-tema{
+	text-align: center;
+	font-family:sans-serif;
+	background: #b50000;
+	color: whitesmoke;
+	padding: 15px 0px 15px;
+	font-family: tahoma;
+}
+	
+.noticia{
+	align-items: center;
+	width: 100%;
+}
+
+#misión-imagen{
+	text-align: center;
+	align-items: center;
+	padding: 0px 0px 10px 0px;
+
+}
+#visión-imagen{
+	text-align: center;
+	align-items: center;
+	padding: 10px 0px 0px 0px;
+}
+
+.cuerpo-objetivo{
+	text-align: center;
+	align-items: center;
+	margin: 20px 120px 20px 120px;
+	border-radius: 5px;
+	align-items: center;
+	background: #d3d3d3;
+	padding: 20px;
+	color: black;	
+	border-radius: 5px;
+	font-family: tahoma;
+}
+
+
+#parrafo{
+	text-align: justify;
+	font-family: tahoma;
+}
+
+
+
+.cuerpo-simple{
+	text-align: center;
+	padding: 30px;
+	margin: 20px 300px 20px 300px ;
+	color: black;
+	font-family: sans-serif;
+	align-items: center;
+	background: #d3d3d3;
+	border-radius: 10px;
+	font-family: tahoma;
+}
+.cuerpo-simple img{
+	border-radius: 10px;
+	float: left;
+	margin-right: 20px;
+	}
+
+.cuerpo-taller{
+	text-align: center;
+	padding: 40px;
+	font-family: tahoma;
+}
+
+#cursos{
+	background: white;
+}
+
+.materias{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  	justify-content: center;
+  	align-items: stretch;
+  	align-content: center;
+  	font-family: arial;
+  	border-radius: 20px;
+  	padding: 0px;
+ }
+  	
+#foto-clases1{
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+  	background: #d3d3d3;
+}
+
+#lista-cursos{
+  	background: lightblue;
+  	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+ 	background: #d3d3d3;
+ 	font-size: 15px;
+}
+
+#foto-clases2{
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+  	background: #d3d3d3;
+}
+.grid-taller {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	flex-direction: row;
+	align-items: center;
+	margin: 0px;
+	padding: 0px;
+	background: white;
+	font-family: tahoma;
+}
+
+.taller{
+	padding: 10px;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+  	background: white;
+}
+
+.taller div p{
+	background: #d3d3d3;
+	padding: 15px;
+	border-radius: 10px;
+}
+
+.cabecera{
+	text-align: center;
+	background: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+.cabecera h3 {
+	color: #b50000;
+}
+
+.personal-docente{
+	display: flex;
+  	justify-content: center;
+  	align-items: stretch;
+  	align-content: center;
+  	font-family: arial;
+  	border-radius: 20px;
+  	padding: 20px;
+}
+
+.cuerpo-docentes{
+	padding: 10px;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+ 	width: 50%;
+  	background: #d3d3d3;
+}
+
+.cuerpo-docentes div div{
+	background: #202020;
+	color: white;
+	padding: 10px;
+}
+
+.cuerpo-docentes div p{
+	background: white;
+	color: black;
+	padding: 20px;
+	margin: 10px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+#foto-docentes{
+	display: inline-flex;
+	width: 50%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	align-content: center;
+	background: #d3d3d3;
+	
+}
+
+#foto-docentes img{
+	border-radius: 20px;
+}
+
+.personal{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+  	justify-content: center;
+  	align-items: stretch;
+  	align-content: center;
+  	font-family: arial;
+  	border-radius: 20px;
+  	padding: 20px;
+}
+
+.cabecera2{
+	text-align: center;
+	background: white;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#personal-directivo{
+	padding: 10px;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+  	background: #d3d3d3;
+}
+
+#personal-auxiliar{
+  	background: lightblue;
+  	padding: 10px;
+  	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+ 	background: #d3d3d3;
+}
+
+#personal-administrativo{
+	padding: 10px;
+ 	display: inline-flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	align-content: center;
+ 	flex-wrap: wrap;
+  	background: #d3d3d3;
+}
+
+
+#personal-directivo div h2{
+	background: #202020;
+	color: white;
+	padding: 5px;
+	border-radius: 15px;
+}
+
+#personal-directivo div p{
+	background: white;
+	color: black;
+	padding: 10px;
+	border-radius: 5px;
+	border-style: double;
+	text-align: left;
+}
+
+#personal-auxiliar div h2{
+	background: #202020;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#personal-auxiliar div p{
+	background: white;
+	color: black;
+	padding: 20px;
+	border-radius: 5px;
+	border-style: double;
+}
+
+
+
+#personal-administrativo div h2{
+	background: #202020;
+	color: white;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+#personal-administrativo div p{
+	background: white;
+	color: black;
+	padding: 20px;
+	border-radius: 5px;
+	border-style: double;
+}
+
+#foto-docentes-dirección{
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	justify-content: center;
+	background: #d3d3d3;
+}
+
+#docentes{
+	background: #d3d3d3;
+}
+
+#docentes img{
+	border-radius: 15px;
+}
+
+#ubicación{
+	background: #b50000;
+	text-align: center;
+}
+
+#ubicación{
+	display: flex;
+}
+
+#ubicación ul{
+	list-style: none;
+	font-family: sans-serif;
+	padding: 10px;
+	background: #b50000;
+	font-style: normal;
+	margin: 0px;
+	text-align: center;
+	align-items: center;
+	align-content: stretch;
+	display: inline-flex;
+
+}
+
+#ubicación ul li{
+	margin: 0;
+	padding-top: 0px;
+	padding-left: 60Px;
+	padding-right: 60px;
+	background: #b50000;
+	width: 33.3%;
+}
+
+.contenedor-noticias{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: ;
+
+
+}
+
+/*Mobil*/
+@media screen and (max-width: 700px) {
+
+	#menu-principal ul{
+		list-style: none;
+		font-family: sans-serif;
+		display: flex;
+		flex-direction: column;
+		padding: 7px;
+		background: #b50000;
+		align-items: center;
+		font-style: normal;
+		margin: 0px;
+	}
+
+	#menu-principal ul li{
+		margin: 0;
+		padding-top: 15Px;
+		padding-bottom: 15px;
+		background: #b50000;
+		text-align: center;
+	}
+
+	.cuerpo-simple{
+		text-align: center;
+		padding: 30px;
+		margin: 20px 20px 20px 20px ;
+		color: black;
+		font-family: sans-serif;
+		align-items: center;
+		background: #d3d3d3;
+		border-radius: 10px;
+		font-family: tahoma;
+	}
+
+	.cuerpo-objetivo{
+		text-align: center;
+		align-items: center;
+		margin: 20px 20px 20px 20px;
+		border-radius: 5px;
+		align-items: center;
+		background: #d3d3d3;
+		padding: 20px;
+		color: black;	
+		border-radius: 5px;
+		font-family: tahoma;
+	}
+
+	.grid-objetivo {
+		display: grid;
+		grid-template-columns: 1fr;
+		flex-direction: row;
+		align-items: center;
+		margin: 0px;
+		padding: 0px;
+		background: white;
+		font-family: tahoma;		
+		}
+
+	#misión-imagen{
+		width: 0;
+		height: 0;
+	}
+
+	#visión-imagen{
+		width: 0;
+		height: 0;
+	}
+
+
+	.noticia{
+		align-items: center;
+		width: 100%;
+		padding: 0px;
+	}
+
+	.materias{
+		display: grid;
+		grid-template-columns: 1fr;
+  		justify-content: center;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 10px;
+ 	}
+
+	.grid-taller {
+		display: grid;
+		grid-template-columns: 1fr;
+		flex-direction: row;
+		align-items: center;
+		margin: 0px;
+		padding: 0px;
+		background: white;
+		font-family: tahoma;
+	}
+
+	.taller{
+		padding: 10px;
+ 		display: inline-flex;
+ 		align-items: center;
+ 		justify-content: center;
+ 		align-content: center;
+ 		flex-wrap: wrap;
+  		background: white;
+	}
+
+	.personal-docente{
+		display: grid;
+		grid-template-columns: 1fr;
+  		justify-content: center;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 20px;
+
+	}
+
+	.cuerpo-docentes{
+		padding: 10px;
+ 		display: inline-flex;
+ 		text-align: center;
+ 		align-items: center;
+ 		justify-content: center;
+ 		align-content: center;
+ 		flex-wrap: wrap;
+  		background: #d3d3d3;
+  		width: 100%;
+	}
+
+	#foto-docentes{
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		align-content: center;
+		background: #d3d3d3;
+	}
+
+	#foto-docentes-dirección{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		justify-content: center;
+		background: #d3d3d3;
+	}
+
+	.personal{
+		display: grid;
+		grid-template-columns: 1fr;
+  		justify-content: center;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 20px;
+	}
+
+	#ubicación{
+		display: flex;
+		flex-direction: column;
+	}
+
+	#ubicación ul{
+		list-style: none;
+		font-family: sans-serif;
+		padding: 10px;
+		background: #b50000;
+		font-style: normal;
+		margin: 0px;
+		text-align: center;
+		align-items: center;
+		align-content: stretch;
+		display: flex;
+		flex-direction: column;
+	}
+
+	#ubicación ul li{
+		margin: 0;
+		padding-top: 10Px;
+		padding-bottom: 10px;
+		background: #b50000;
+		width: 33.3%;
+	}
+
+}
