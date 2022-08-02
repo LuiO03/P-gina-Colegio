@@ -196,6 +196,7 @@ header{
  	flex-wrap: wrap;
  	background: #d3d3d3;
  	font-size: 15px;
+ 	line-height: 170%;
 }
 
 #foto-clases2{
@@ -452,8 +453,195 @@ header{
 
 }
 
+
+/*Tablet*/
+@media screen and (max-width: 768px) {
+
+	#menu-principal ul{
+		list-style: none;
+		font-family: sans-serif;
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		padding: 7px;
+		background: #b50000;
+		align-items: center;
+		font-style: normal;
+		margin: 0px;
+	}
+
+	#menu-principal ul li{
+		margin: 0;
+		padding-top: 15Px;
+		padding-bottom: 15px;
+		background: #b50000;
+		text-align: center;
+	}
+
+	.cuerpo-simple{
+		text-align: center;
+		padding: 30px;
+		margin: 20px 40px 20px 40px ;
+		color: black;
+		font-family: sans-serif;
+		align-items: center;
+		background: #d3d3d3;
+		border-radius: 10px;
+		font-family: tahoma;
+	}
+
+	.cuerpo-objetivo{
+		text-align: center;
+		align-items: center;
+		margin: 20px 20px 20px 20px;
+		border-radius: 5px;
+		align-items: center;
+		background: #d3d3d3;
+		padding: 20px;
+		color: black;	
+		border-radius: 5px;
+		font-family: tahoma;
+	}
+
+	.grid-objetivo {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		flex-direction: row;
+		align-items: center;
+		margin: 0px;
+		padding: 0px;
+		background: white;
+		font-family: tahoma;		
+		}
+
+	
+
+
+	.noticia{
+		align-items: center;
+		width: 100%;
+		padding: 0px;
+	}
+
+	#cursos{
+		background: #d3d3d3;
+	}
+
+	.materias{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+  		justify-content: center;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 10px;
+ 	}
+
+	.grid-taller {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		align-items: center;
+		margin: 0px;
+		padding: 0px;
+		background: white;
+		font-family: tahoma;
+	}
+
+	.taller{
+		padding: 0px;
+ 		display: inline-flex;
+ 		align-items: center;
+ 		justify-content: center;
+ 		align-content: center;
+ 		flex-wrap: wrap;
+  		background: white;
+	}
+
+	.personal-docente{
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+  		justify-content: center;
+  		grid-gap: 30px;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 20px;
+
+	}
+
+	.cuerpo-docentes{
+		padding: 10px;
+ 		display: inline-flex;
+ 		text-align: center;
+ 		align-items: center;
+ 		justify-content: center;
+ 		align-content: center;
+ 		flex-wrap: wrap;
+  		background: #d3d3d3;
+  		width: 100%;
+	}
+
+	#foto-docentes{
+		display: inline-flex;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		align-content: center;
+		background: #d3d3d3;
+	}
+
+	#foto-docentes-dirección{
+		display: flex;
+		width: 100%;
+		align-items: center;
+		align-content: center;
+		text-align: center;
+		justify-content: center;
+		background: #d3d3d3;
+	}
+
+	.personal{
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+  		justify-content: center;
+  		align-items: stretch;
+  		align-content: center;
+  		font-family: arial;
+  		border-radius: 20px;
+  		padding: 20px;
+	}
+
+	#ubicación{
+		display: flex;
+	}
+
+	#ubicación ul{
+		list-style: none;
+		font-family: sans-serif;
+		padding: 10px;
+		background: #b50000;
+		font-style: normal;
+		margin: 0px;
+		text-align: center;
+		align-items: center;
+		align-content: stretch;
+		display: flex;
+	}
+
+	#ubicación ul li{
+		margin: 0;
+		padding-top: 10Px;
+		padding-bottom: 10px;
+		background: #b50000;
+		width: 33.3%;
+	}
+}
+
 /*Mobil*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 480px) {
 
 	#menu-principal ul{
 		list-style: none;
